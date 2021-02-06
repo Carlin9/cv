@@ -1,0 +1,347 @@
+/* ------------------------------------Page Setup---------------------------------- */
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+.top {
+    background-color: #1fab89;
+}
+
+.middle {
+    background-color: #edf5e1;
+}
+
+.bottom {
+    background-color: #5cdb95;
+    padding: 20px 0;
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 10px;
+    border-color: #8aae92;
+    margin: 100px auto;
+    width: 8%;
+}
+
+h1 {
+    color: #edf5e1;
+    font-family: 'Mansalva', cursive;
+    font-size: 5rem;
+    line-height: 3;
+    margin-top: 0px;
+    margin-bottom: 0;
+    padding-bottom: 50px;
+}
+
+h2 {
+    color: #1fab89;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    font-weight: 1000;
+    margin-top: 80px;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #0d7377;
+}
+
+a {
+    color: #1fab89;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+
+span {
+    text-decoration: underline;
+}
+
+p {
+    color: #05386b;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+li {
+    color: #05386b;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+/* ----------------------------------------------Container---------------------------------------- */
+
+.profile {
+    padding: 50px;
+}
+
+
+/* Bio */
+
+#profile_pic {
+    width: 200px;
+}
+
+.title {
+    color: #edf5e1;
+    font-size: 1.5rem;
+    font-weight: normal;
+    margin: 0 auto 50px auto;
+    width: 20%;
+}
+
+.bio {
+    color: #05386b;
+    font-weight: 500;
+    line-height: 3;
+    margin: 50px auto 0px auto;
+    width: 30%;
+
+}
+
+/* ------------------------------------------------Education-------------------------------- */
+.monash_img {
+    float: left;
+    margin-right: 50px;
+    width: 220px;
+    height: 220px;
+    position: relative;
+    right: 10px;
+    bottom: 10px;
+}
+
+.unsw_img {
+    float: left;
+    margin-right: 70px;
+    width: 180px;
+    height: 180px;
+    padding: 10px;
+}
+
+.education-row {
+    width: 50%;
+    margin: 50px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+    padding: 30px;
+}
+
+/* ----------------------------------------------Experience--------------------------- */
+.experience-row {
+    width: 75%;
+    margin: 50px auto 50px auto;
+    text-align: left;
+    line-height: 2;
+    padding: 30px;
+}
+
+.bostik-img {
+    float: right;
+    margin-left: 100px;
+    width: 450px;
+    height: 150px;
+    padding: 20px;
+}
+
+.csiro-img {
+    float: right;
+    margin-left: 100px;
+    width: 150px;
+    height: 150px;
+    padding: 20px;
+    position: relative;
+    right: 5%;
+}
+
+.sunswift-img {
+    float: right;
+    margin-left: 100px;
+    width: 650px;
+    height: 150px;
+    padding: 20px;
+    position: relative;
+    right: 5%;
+}
+
+/* Hard Skills */
+.left-row {
+    width: 70%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.right-row {
+    width: 70%;
+    margin: 100px auto 100px auto;
+    text-align: right;
+    line-height: 2;
+}
+
+.design-img {
+    float: left;
+    margin-right: 50px;
+    width: 120px;
+    height: 120px;
+}
+
+.research-img {
+    float: right;
+    margin-left: 50px;
+    width: 120px;
+    height: 120px;
+}
+
+.enviro-img {
+    float: left;
+    margin-right: 50px;
+    width: 120px;
+    height: 120px;
+}
+
+.system-img {
+    float: right;
+    margin-left: 50px;
+    width: 120px;
+    height: 120px;
+}
+
+.cad-img {
+    float: left;
+    margin-right: 50px;
+    width: 120px;
+    height: 120px;
+}
+
+.office-img {
+    float: right;
+    margin-left: 50px;
+    width: 100px;
+    height: 100px;
+}
+
+.code-img {
+    float: left;
+    margin-right: 50px;
+    width: 120px;
+    height: 120px;
+}
+
+/* Soft Skills */
+.grid {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    margin-top: 50px;
+}
+
+.soft-row {
+    margin: 50px auto;
+    line-height: 2;
+}
+
+.communication-img {
+    width: 80px;
+    height: 80px;
+}
+
+.fast-img {
+    width: 80px;
+    height: 80px;
+}
+
+.nvrgvup-img {
+    width: 80px;
+    height: 80px;
+}
+
+.teamwork-img {
+    width: 80px;
+    height: 80px;
+}
+
+/* Language */
+.lang_table {
+    margin: 50px auto 50px auto;
+    padding: 50px;
+}
+
+.language {
+    font-family: 'Montserrat', sans-serif;
+    color: #0d7377;
+    font-size: 1.1em;
+}
+
+.proficiency {
+    color: #84a9ac;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+/* Contact */
+.contact-me {
+    padding-bottom: 100px;
+}
+
+.contact-msg {
+    margin: 50px auto;
+    width: 30%;
+}
+
+.Contact-img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 30px;
+}
+
+.btn {
+  background: #1fab89;
+  background-image: -webkit-linear-gradient(top, #1fab89, #5cdb95);
+  background-image: -moz-linear-gradient(top, #1fab89, #5cdb95);
+  background-image: -ms-linear-gradient(top, #1fab89, #5cdb95);
+  background-image: -o-linear-gradient(top, #1fab89, #5cdb95);
+  background-image: linear-gradient(to bottom, #1fab89, #5cdb95);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #9df3c4;
+  background-image: -webkit-linear-gradient(top, #9df3c4, #00b8a9);
+  background-image: -moz-linear-gradient(top, #9df3c4, #00b8a9);
+  background-image: -ms-linear-gradient(top, #9df3c4, #00b8a9);
+  background-image: -o-linear-gradient(top, #9df3c4, #00b8a9);
+  background-image: linear-gradient(to bottom, #9df3c4, #00b8a9);
+  text-decoration: none;
+}
+
+/* Footer */
+.footer-link {
+    margin: 10px 20px 80px;
+}
+
+.footer-link:hover {
+    color: #9df3c4;
+}
+
+.copyright {
+    color: #05386b;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.75rem;
+    font-weight: normal;
+}
+
+.copyright1 {
+    color: #1fab89;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.75rem;
+    font-weight: normal;
+}
